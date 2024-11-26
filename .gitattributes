@@ -1,2 +1,6 @@
 # Normalize EOL for all files that Git considers text files.
 * text=auto eol=lf
+addons/Wwise/native/lib/android/debug/arm64-v8a/libWwiseAndroidPlugin.so filter=lfs diff=lfs merge=lfs -text
+addons/Wwise/native/lib/android/debug/armeabi-v7a/libWwiseAndroidPlugin.so filter=lfs diff=lfs merge=lfs -text
+addons/Wwise/native/lib/linux/debug/libwwise.linux.template_debug.so filter=lfs diff=lfs merge=lfs -text
+addons/Wwise/native/lib/win64/debug/libwwise.windows.template_debug.pdb filter=lfs diff=lfs merge=lfs -text
