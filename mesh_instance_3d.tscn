@@ -1,0 +1,10 @@
+[gd_scene load_steps=2 format=3 uid="uid://cdy7yr264ijt7"]
+
+[sub_resource type="CapsuleMesh" id="CapsuleMesh_dqc4k"]
+
+[node name="MeshInstance3D" type="MeshInstance3D"]
+mesh = SubResource("CapsuleMesh_dqc4k")
+
+[node name="Camera3D" type="Camera3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 3.16267)
+current = true
